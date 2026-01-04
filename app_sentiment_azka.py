@@ -17,8 +17,10 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 plt.rcParams['axes.unicode_minus'] = False
 
 # ==== FIX NLTK ERROR ====
-nltk.download("punkt")
-nltk.download("punkt_tab")
+#nltk.download("punkt")
+#nltk.download("punkt_tab")
+nltk.download("punkt", quiet=True)
+
 
 # ============================================================
 #                  FUNGSI PREPROCESSING
